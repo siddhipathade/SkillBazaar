@@ -1,0 +1,27 @@
+# Eclipse / Java generated files
+bin/
+build/
+target/
+.metadata/
+*.class
+
+# IDE / OS files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Local database dumps and temporary exports
+Dump*/
+*.dump
+*.bak
+
+# Logs
+*.log
+
+# Keep project source and bundled runtime libraries; do not ignore WEB-INF/lib/*.jar
